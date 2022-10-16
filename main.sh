@@ -18,6 +18,7 @@ fi
 if [ ! -f "sing-box" ];then
     curl -L https://github.com/SagerNet/sing-box/releases/download/v1.0.5/sing-box-1.0.5-linux-amd64.tar.gz -o sing-box.tar.gz
   tar -zxvf sing-box.tar.gz
+    mv /home/runner/${REPL_SLUG}/sing-box-1.0.5-linux-amd64/* /home/runner/${REPL_SLUG}/
     rm -f LICENSE && rm -f sing-box.tar.gz
     chmod +x sing-box
 fi
