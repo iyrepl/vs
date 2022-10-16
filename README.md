@@ -44,6 +44,7 @@ You can find all clients from:
 
 # Usage
 
+- type:"vmess"
 - id:"uuid"
 - host:"your replit url"
 - port:443
