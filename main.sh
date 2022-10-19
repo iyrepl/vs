@@ -34,8 +34,8 @@ if [ $uuid ];then
     },
     "inbounds": [
       {
-        "type": "vmess",
-        "tag": "vmess-in",
+        "type": "trojan",
+        "tag": "trojan-in",
         "listen": "::",
         "listen_port": 23333,
         "tcp_fast_open": true,
@@ -44,9 +44,8 @@ if [ $uuid ];then
         "proxy_protocol": false,
         "users": [
           {
-            "name": "example",
-            "uuid": "$uuid",
-            "alterId": 0
+            "name": "name",
+            "password": "$uuid"
           }
         ],
         "transport": {
