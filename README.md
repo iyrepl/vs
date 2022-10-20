@@ -44,12 +44,11 @@ You can find all clients from:
 
 # Usage
 
-- type:"vmess"
+- type:"trojan-go"
 - id:"uuid"
 - host:"your replit url"
 - port:443
 - stream-network:ws
-- security:none
 - ws-path:/uuid
 - tls:tls
 
@@ -61,3 +60,4 @@ https://uptimerobot.com
 
 
 # Good luck!
+
