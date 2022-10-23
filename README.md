@@ -2,7 +2,7 @@
 
 #### Feature:
 
-Caddy2 as frontend with Diffuse as disquise.
+Caddy2 as frontend with [Diffuse](https://github.com/icidasset/diffuse) as disquise.
 
 ### Deploy:
 
